@@ -1,0 +1,16 @@
+<div class="product">
+    <p>
+        这里是商品信息组件
+    </p>
+    <p>
+        <a  [routerLink]="['./']">商品详情</a>
+        <a [routerLink]="['./classify',9]">商品分类</a>
+    </p>
+    <p>
+        商品ID是{{productId}}
+    </p>
+    <p>
+        商品名称是:{{productName}}
+    </p>
+    <router-outlet></router-outlet>
+</div>
